@@ -62,11 +62,11 @@ def load_pretrained_weights(model: nn.Module,
     """
     ckpt_path = Path(checkpoint_path)
     if not ckpt_path.exists():
-        print(f"⚠️  Checkpoint không tồn tại: {ckpt_path}")
+        print(f"Checkpoint không tồn tại: {ckpt_path}")
         print("   Model sẽ dùng random initialization.")
         return model
 
-    print(f"📦 Loading checkpoint: {ckpt_path.name}")
+    print(f"Loading checkpoint: {ckpt_path.name}")
     pretrained = _load_checkpoint(ckpt_path)
 
     # ── Bước 1: Nạp encoder ──────────────────────────────────────────────────
@@ -113,6 +113,6 @@ def load_pretrained_weights(model: nn.Module,
         print(f"   Missing (ngoài SDI/aux): {len(missing)}")
         if unexpected:
             print(f"   Unexpected keys       : {len(unexpected)}")
-        print("✅ Pretrained weights loaded.")
+        print("Pretrained weights loaded.")
 
     return model
