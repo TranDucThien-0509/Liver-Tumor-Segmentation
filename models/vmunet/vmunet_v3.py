@@ -1,5 +1,5 @@
 """
-vmunet_sc.py  —  VMUNet + SC_Att_Bridge skip connection
+vmunet_v3.py  —  VMUNet + SC_Att_Bridge skip connection
 =========================================================
 Cải tiến so với V1:
     Thay skip đơn giản  `x + skip_list[-inx]`
@@ -15,7 +15,7 @@ Tại sao SC_Att_Bridge tốt hơn?
 Chỉ thêm 3 class nhỏ + 1 VSSM subclass.
 
 Cách dùng:
-    from vmunet_sc import VMUNetSC
+    from vmunet_v3 import VMUNetSC
     model = VMUNetSC(input_channels=3, num_classes=1)
     model.load_from()   # load pretrained giống V1
 """
