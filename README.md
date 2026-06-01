@@ -111,5 +111,5 @@ When configured in Training Mode, Method 1 of VM-UNet V2 utilizes auxiliary segm
 `DeepSupervisionLoss`
 
 The custom DeepSupervisionLoss module manages both execution paths automatically:  
-Training Mode: Processes the array of predicted outputs, interpolates intermediate feature scales, and executes a weighted summary loss computation using your defined configuration parameters.  
-Inference Mode: Detects standard singleton tensors automatically, isolates the fine-resolution final_prediction tensor, and measures standard objective criteria while bypassing raw auxiliary branches cleanly.  
+- Training Mode: Processes the array of predicted outputs, interpolates intermediate feature scales, and executes a weighted summary loss computation using your defined configuration parameters.  
+- Inference Mode: Detects standard singleton tensors automatically, isolates the fine-resolution final_prediction tensor, and measures standard objective criteria while bypassing raw auxiliary branches cleanly.  
