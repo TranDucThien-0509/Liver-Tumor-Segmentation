@@ -16,7 +16,8 @@ VM-UNet-V2/
 |       ├── vmamba_v1.py
 |       ├── vmunet_v1.py    
 │       ├── vmamba_v2.py          ← VSSM + CBAM + SDI + Deep Supervision
-│       └── vmunet_v2.py          ← VMUNet wrapper + DeepSupervisionLoss helper
+│       ├── vmunet_v2.py          ← VMUNet wrapper + DeepSupervisionLoss helper
+│       └── vmunet_v3.py          ← VMUNet + SC_Att_Bridge skip connection
 │
 ├── data/
 │   ├── __init__.py
