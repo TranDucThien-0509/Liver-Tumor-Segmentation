@@ -1,1 +1,12 @@
-You could download the weights used by VM-UNet from [Baidu Drive](https://pan.baidu.com/s/1ci_YvPPEiUT2bIIK5x8Igw?pwd=wnyy) or [Google Drive](https://drive.google.com/drive/folders/1Fr7zM1wq7106d0P7_3oeU5UZqUvk2KaP?usp=sharing)
+### Dataset Setup
+
+Place your datasets here and follow the directory structure outlined below:
+
+```text
+data/
+├── train/
+│   ├── images/
+│   └── masks/
+└── test/
+    ├── images/
+    └── masks/ 
