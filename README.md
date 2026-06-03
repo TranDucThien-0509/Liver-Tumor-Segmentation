@@ -29,6 +29,9 @@ VM-UNet/
 │   ├── train/
 │   │   ├── images/
 │   │   └── masks/
+│   ├── val/
+│   │   ├── images/
+│   │   └── masks/
 │   └── test/
 │       ├── images/
 │       └── masks/
