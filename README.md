@@ -1,6 +1,6 @@
 # **Medical Image Segmentation: Advanced Structural Enhancements in Vision Mamba UNet**
 
-This repository contains the official implementation of VM-UNet V2, introducing advanced structural enhancements to the pure State Space Model (SSM) architecture for medical image segmentation. It includes Method 1 (SDI + CBAM + Deep Supervision) and Method 2 (SC_Att_Bridge), engineered to bridge the semantic gap and enhance multi-scale feature interactions
+This repository contains the official implementation of VM-UNet, introducing advanced structural enhancements to the pure State Space Model (SSM) architecture for medical image segmentation. It includes Method 1 (SDI + CBAM + Deep Supervision) and Method 2 (SC_Att_Bridge), engineered to bridge the semantic gap and enhance multi-scale feature interactions
 
 ```
 VM-UNet/
